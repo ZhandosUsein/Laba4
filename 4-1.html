@@ -1,0 +1,19 @@
+<html>
+<script>
+a= Number(prompt("A number :"," "));
+b= Number(prompt("B number :"," "));
+c= Number(prompt("C number :"," "));
+d= Number(prompt("D number :"," "));
+var a = [a,b,c,d];
+var min = a[0];
+function mini(){
+for (var i = 1; i < a.length; i++) {
+  if (a[i] < min) {
+    min = a[i];
+  }
+}
+return min;
+}
+alert("Min =" +mini());
+</script>
+</html>
